@@ -9,36 +9,26 @@
   <body>
     <h1>Table template</h1>
     <table>
-      <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
-      </caption>
+      <caption>Data about the planets of our solar system (Planetary facts taken from Nasa's Planetary Fact Sheet - Metric).</caption>
+      <colgroup>
+        <col span="2">
+        <col style="border: 2px solid black">
+        <col span="9">
+      </colgroup>
       <thead>
-        <th colspan="2"> </th>              
-        <th>Name</th>
-        <th>Mass</th>
-        <th>Diameter</th>
-        <th>Density</th>
-        <th>Gravity</th>
-        <th>Length of Day</th>
-        <th>Distance from Sun</th>
-        <th>Mean Temperature</th>
-        <th>Neptune</th>
-        <th>Number of Moons</th>
-        <th>Notes</th>
-
+        <tr>
+          <td colspan="2">Name</td>
+          <th scope="col">Mass</th>
+          <th scope="col">Diameter</th>
+          <th scope="col">Density</th>
+          <th scope="col">Gravity</th>
+          <th scope="col">Length of day</th>
+          <th scope="col">Distance from sun</th>
+          <th scope="col">Mean temperature</th>
+          <th scope="col">Number of moons</th>
+          <th scope="col">Notes</th>
+        </tr>
       </thead>
-      <tbody>
-        <tr>
-          <th colspan="2">Terrestrial Planets </th>
-        </tr>
-        <tr>
-          <th>Jovian Planets </th>
-          <th>Gas Giants </th>
-        </tr>
-      </tbody>
-      
-      <tr>
-        <td></td>
-      </tr>
     </table>
 
   </body>
