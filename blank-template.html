@@ -5,8 +5,38 @@
     <meta name="viewport" content="width=device-width">
     <title>Table template</title>
     <link href="minimal-table.css" rel="stylesheet" type="text/css">
+    <style>.hex {
+      background-color: #86DEFA;
+    }
+    
+    .rgb {
+      background-color: rgb(120, 219, 247);
+    }
+    
+    .hsl {
+      background-color:hsl(193, 78%, 74%)
+    }
+    
+    .transparency {
+      background-color: rgba(120, 219, 247, 0.6);
+
+    }
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 16px;
+    }
+    h1 + p {
+      font-size: 120%;
+    }
+    </style>
   </head>
   <body>
+    <!--
     <h1>Table template</h1>
     <table>
       <caption>Data about the planets of our solar system (Planetary facts taken from Nasa's Planetary Fact Sheet - Metric).</caption>
@@ -146,7 +176,18 @@
             </tr>
       </tbody>
     </table>
-
+  -->
+  <h1>Hello</h1>
+  <p>Directly after h1</p>
+  <h2>Hey </h2>
+  <p>I am 16 pixels</p>
+  <ul>
+    <li class="hex">hex color</li>
+    <li class="rgb">RGB color</li>
+    <li class="hsl">HSL color</li>
+    <li class="transparency">Alpha value 0.6</li>
+  </ul>
+      
   </body>
 </html>
 <!--Open your copy of blank-template.html,
